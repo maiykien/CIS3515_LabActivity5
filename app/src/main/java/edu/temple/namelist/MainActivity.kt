@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity() {
                     names.removeAt(position)
                     (spinner.adapter as BaseAdapter).notifyDataSetChanged()
 
-
                     if (names.isNotEmpty()) {
                         spinner.setSelection(0)
                     }
